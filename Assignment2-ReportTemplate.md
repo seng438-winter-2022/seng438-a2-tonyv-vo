@@ -85,10 +85,14 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 - Two test cases were created. The first test case (#22), focused on passing a null double array into createNumberArray(double[] data) and expected an IllegalArgumentException to be thrown. The second test case (#23) focused on passing in a double array containing some Double values and expected a Number array to be returned that contains the same Double values that was passed in.
 
 ### Test cases 24-25 for createNumberArray2D(double [][] data)
+- Weak Equivalence Testing 
+- max(0,2) = 2 test cases 
+- Two test cases were used for this function: Test #24 to test whether an IllegalArgumentException would be thrown when a null 2D double array is used as an input and Test #25 to check whether a 2D Number array would be created when a 2D array of type double is used as an input. 
 
 ### Test cases 26-28 for constrain(double data)
-
-Assuming that  the valid range for the Range object is from -100,000 to 100,000 and given that the 
+- Weak Equivalence Testing 
+- max(0,3) = 3 test cases 
+- The test cases assume that the valid range for the Range object is from -100,000 to 100,000. 3 tests were done: Test #26 checks whether the positive endpoint (100,000)      would be returned when a positive input greater than 100,000 was used as an input. Test #27 checks whether the negative endpoint (-100,000) would be returned when a negative input lower than -100,000 was used as an input. Test #28 checks if the input would be returned if it is between the endpoints. 
 
 ### Test cases for 29-36 for getLowerBound()
 
