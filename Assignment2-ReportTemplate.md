@@ -22,19 +22,14 @@
 
 [6 Comments/feedback on the lab itself](#_Toc439194682)
 
-# 
-**1 Introduction**
+# 1 Introduction
 
 In this assignment, we were given the Java library JFreeChart, which is used for creating interactive charts. The objective of this assignment is to create unit tests for certain methods from JFreeChart. This assignment was focused on Weak Equivalence Class Testing (WECT) and black-box testing. As such, we were provided with a function’s signature, arguments accepted, description, and a return value, but were not shown the code for the implementation of the method. From this, we devised a unit test strategy to effectively write enough tests to cover WECT for the arguments of the method. When needed, the Java mocking library jMock was used to mock objects such as Values2D and KeyedValues in the DataUtilities class.
 
 Before this assignment, all group members had limited unit testing abilities. In a previous course, ENSF 409 (which was taken by all members), unit testing was briefly taught and used in some assignments and the final project, but not to the extent present in this assignment (such as mocking objects and using @Before and @After).
 
 
-# 
-**2 Detailed descriptions of unit test strategy**
-
-	
-
+# 2 Detailed descriptions of unit test strategy
 Our test strategy was to use the technique of Weak Equivalence Class Testing (WECT). We’ve calculated the max() in order to decipher how many tests seem appropriate for each method. We have provided an example diagram to visually display our testing strategy for the domain of the first method. We have tested the boundary values of certain tests and have attempted to include all equivalence classes for the rest of the tests. The following contains the corresponding WECT max() calculations for each method tested:
 
 <span style="text-decoration:underline;">Test cases 1- 7 for getUpperBound():</span>
@@ -128,8 +123,7 @@ An additional test case was used to check that an exception was thrown for null 
 4 tests were created total
 
 
-# 
-**3 Test cases developed**
+# 3 Test cases developed
 
 
 <table>
@@ -1189,8 +1183,7 @@ Input 2:
 
 
 
-# 
-**4 How the teamwork/effort was divided and managed**
+# 4 How the teamwork/effort was divided and managed
 
 Our group decided on which methods from the DataUtilities and Range classes would be tested. Five methods from each class were selected. Each member took two methods to test, one test from the Range class, and one from the DataUtilities class. The extra two classes were left until everyone had finished their first two methods, then taken by members who had finished their other tests with help from the remaining group members. 
 
@@ -1268,8 +1261,7 @@ The methods under test were assigned as follows:
 
 
 
-# 
-**5 Difficulties encountered, challenges overcome, and lessons learned**
+# 5 Difficulties encountered, challenges overcome, and lessons learned
 
 One issue we faced was determining which tests were required for methods with more complicated methods under test. For instance, the calculateRowTotal() method from the DataUtilities class required two inputs (a Values2D and an integer), so the Values2D was simulated using jMock. During this mocking process, we set the expected behaviour and values into the mocked object, then passed it into calculateRowTotal() as an argument. Mocking was more difficult than simply testing a method such as getLength() from the Range class, where a primitive Double argument could be passed in without having to mock the object. Considering that this was the first time any of us had worked with equivalence classes, we were a bit unsure of how to split up the input partitions. As a group, we were able to overcome this after asking some questions to fully understand how WECT affects more complicated inputs.
 
@@ -1278,8 +1270,7 @@ We also felt at times we had too many tests and went with a better safe than sor
 Lastly, we faced an issue
 
 
-# 
-**6 Comments/feedback on the lab itself**
+# 6 Comments/feedback on the lab itself
 
 This lab was an interesting learning experience, especially when learning about mocking and understanding its role in testing. It allowed us to use teamwork effectively to create these unit tests and gave us a chance to apply our knowledge from the lectures.
 
