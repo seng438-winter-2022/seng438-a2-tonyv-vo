@@ -2,7 +2,7 @@
 
 > **Assignment #2**
 
-> **Lab. Report \#2 – Requirements-Based Test Generation**
+> **Lab Report \#2 – Requirements-Based Test Generation**
 
 | Group \#:       | G38  |
 |-----------------|---|
@@ -13,9 +13,7 @@
 - [1 Introduction](#1-introduction)
 
 - [2 Detailed descriptions of unit test strategy](#2-detailed-descriptions-of-unit-test-strategy)
-
-- [3 Test cases developed](#3-test-cases-developed)
-  - [Test cases 1-7 for getUpperBound()](#test-cases-1--7-for-getupperbound)
+  - [Test cases 1-7 for getUpperBound()](#test-cases-1---7-for-getupperbound)
   - [Test cases 8-11 for calculatedRowTotal()](#test-cases-1--7-for-getupperbound)
   - [Test cases 12-15 for contains()](#test-cases-1--7-for-getupperbound)
   - [Test cases 16-21 for getLength()](#test-cases-1--7-for-getupperbound)
@@ -25,6 +23,8 @@
   - [Test cases 29-36 for getLowerBound()](#test-cases-1--7-for-getupperbound)
   - [Test cases 37-41 for equal(double [][] a, double [][] b)](#test-cases-1--7-for-getupperbound)
   - [Test cases 42-45 for calculateColumnTotal(Values2D data, int column)](#test-cases-1--7-for-getupperbound)
+
+- [3 Test cases developed](#3-test-cases-developed)
 
 - [4 How the teamwork/effort was divided and managed](#4-how-the-teamworkeffort-was-divided-and-managed)
 
