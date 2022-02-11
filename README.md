@@ -1,6 +1,8 @@
 # seng438-assignment-2
+## Group 38
+Group members: Tony Vo, Chace Nielson, Chad Holst, Olisehemeka Chukwuma
 
-# Guidline
+## **IMPORTANT NOTE**
 
-- read [assignment guideline](./Assignment2.md)
-- commit and push output ([assignment output template](./Assignment2-ReportTemplate.md))
+## Deliverables
+- [Lab Report](seng438-assignment-2-Lab-Report.md) 
