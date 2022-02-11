@@ -6,6 +6,6 @@ Group members: Tony Vo, Chace Nielson, Chad Holst, Olisehemeka Chukwuma
 The hamcrest-core-1.3.jar file that was included with the jfreechart-1.0.19.zip of Assignment2-artifact.zip from GitHub Classroom did not work when we tried to compile our tests. We found that using hamcrest-all-1.3.jar instead of hamcrest-core-1.3.jar fixed our compilation errors. Therefore, it is **essential** to use hamcrest-all-1.3.jar instead of hamcrest-core-1.3.jar. Please use the JARs found in [Reference Library](Referenced%20Libraries/) of JAR files for the project buildpath rather than the ones provided from Assignment2-artifact.zip.
 
 ## Deliverables
-- [JFreeChart Unit Tests](JFreeChart/)
+- [JFreeChart Unit Tests](JFreeChart/src/org/jfree/data/test)
 - [Lab Report](seng438-assignment-2-Lab-Report.md) 
 - [Reference Library](Referenced%20Libraries/)
