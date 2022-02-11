@@ -45,7 +45,7 @@ However, 2 more test cases were included.
 ![Double boundary values](media/boundaries.png "Double boundary values")
 
 
-<span style="text-decoration:underline;">Test cases 8 - 11 for calculatedRowTotal():</span>
+### Test cases 8 - 11 for calculatedRowTotal()
 
 Weak Equivalence Testing
 
@@ -53,7 +53,7 @@ max(2,3) = 3 test cases
 
 An additional test case was used to check that an exception was thrown for null data
 
-<span style="text-decoration:underline;">Test cases 12 - 15 for contains():</span>
+### Test cases 12 - 15 for contains()
 
 Weak Equivalence Testing
 
@@ -61,7 +61,7 @@ max(2,3) = 3 test cases
 
 An additional test case (13) was used to check the same value for upper bound, upper bound, and return value
 
-<span style="text-decoration:underline;">Test cases 16 - 21 for getLength():</span>
+### Test cases 16 - 21 for getLength()
 
 Weak Equivalence Testing
 
@@ -69,7 +69,7 @@ max(0,3) = 3 test cases
 
 3 test cases (test cases #19-21) were focused on the endpoints, with one test going beyond the lower bound of Double.NEGATIVE_INFINITY to test integer overflow, one test going beyond the upper bound of Double.POSITIVE_INFINITY to test integer overflow, and one test exactly at the bounds of [Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY]. In addition, 3 more tests (test cases #16-18) were done within these bounds, where one test (#16) had a nominal and positive range, another test (#17) had a range with a length of 0, and the third test (#18) had a nominal and negative range. 
 
-<span style="text-decoration:underline;">Test cases 22 - 23 for createNumberArray(double[] data):</span>
+### Test cases 22 - 23 for createNumberArray(double[] data)
 
 Weak Equivalence Testing
 
@@ -77,13 +77,13 @@ max(0,2) = 2 test cases
 
 2 test cases were created. The first test case (#22), focused on passing a null double array into createNumberArray(double[] data) and expected an IllegalArgumentException to be thrown. The second test case (#23) focused on passing in a double array containing some Double values and expected a Number array to be returned that contains the same Double values that was passed in.
 
-<span style="text-decoration:underline;">Test cases 24-25 for createNumberArray2D(double [][] data): </span>
+### Test cases 24-25 for createNumberArray2D(double [][] data)
 
-<span style="text-decoration:underline;">Test cases 26-28 for constrain(double data):</span>
+### Test cases 26-28 for constrain(double data)
 
 Assuming that  the valid range for the Range object is from -100,000 to 100,000 and given that the 
 
-<span style="text-decoration:underline;">Test cases for 29-36 for getLowerBound():</span>
+### Test cases for 29-36 for getLowerBound()
 
 Weak Equivalence Testing
 
@@ -95,7 +95,7 @@ max(0,3) = 3 test cases
 
 8 tests total were created
 
-<span style="text-decoration:underline;">Test cases for 37-41 for equal(double [][] a, double [][] b):</span>
+### Test cases for 37-41 for equal(double [][] a, double [][] b)
 
 Weak Equivalence Testing
 
@@ -109,7 +109,7 @@ And a test case was added to ensure false was returned when arrays had different
 
 5 tests total were created
 
-<span style="text-decoration:underline;">Test cases for 42-45 for calculateColumnTotal(Values2D data, int column):</span>
+### Test cases for 42-45 for calculateColumnTotal(Values2D data, int column)
 
 Weak Equivalence Testing
 
