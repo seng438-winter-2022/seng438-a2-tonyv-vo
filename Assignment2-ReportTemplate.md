@@ -1,92 +1,24 @@
-<!-- Output copied to clipboard! -->
+>   **SENG 438 - Software Testing, Reliability, and Quality**
 
-<!-----
+**Lab. Report \#2 – Requirements-Based Test Generation**
 
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 1
+| Group \#:       | G38  |
+|-----------------|---|
+| Student Names:  | Tony Vo, Chace Nielson, Chad Holst, Olisehemeka Chukwuma |
 
-Conversion time: 3.116 seconds.
+**Table of Contents**
 
+[1 Introduction](#_Toc439194677)
 
-Using this Markdown file:
+[2 Detailed descriptions of unit test strategy](#_Toc439194678)
 
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
+[3 Test cases developed](#_Toc439194679)
 
-Conversion notes:
+[4 How the teamwork/effort was divided and managed](#_Toc439194680)
 
-* Docs to Markdown version 1.0β33
-* Fri Feb 11 2022 09:28:38 GMT-0800 (PST)
-* Source doc: Assignment 2
-* Tables are currently converted to HTML tables.
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
+[5 Difficulties encountered, challenges overcome, and lessons learned](#_Toc439194681)
 
-
-WARNING:
-You have 6 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-SENG 438 - Software Testing, Reliability, and Quality
-
-Lab. Report #2 – Requirements-Based Test Generation
-
-**Group #:** G38
-
-
-<table>
-  <tr>
-   <td><strong>Group #: </strong>
-   </td>
-   <td>G38
-   </td>
-  </tr>
-  <tr>
-   <td>Student Names:
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Tony Vo
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Chace Nielson
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Chad Holst
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Olisehemeka Chukwuma
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
+[6 Comments/feedback on the lab itself](#_Toc439194682)
 
 # 
 **1 Introduction**
@@ -111,14 +43,10 @@ max(2,5) = 5 test cases
 
 However, 2 more test cases were included.
 
- 
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![Double boundary values](media/boundaries.png "Double boundary values")
 
 
 <span style="text-decoration:underline;">Test cases 8 - 11 for calculatedRowTotal():</span>
