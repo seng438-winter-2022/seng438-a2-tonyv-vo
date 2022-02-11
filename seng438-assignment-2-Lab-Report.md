@@ -45,9 +45,9 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 
 - Weak Equivalence Testing
 
-- max(2,5) = 5 test cases 
+- max(0,4) = 4 test cases 
 
-- However, 2 more test cases were included.
+- However, 3 more test cases were included. 
 
 ![Double boundary values](media/boundaries.png "Double boundary values")
 
@@ -101,7 +101,6 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 - max(0,3) = 3 test cases 
 
 - 3 tests were created around each endpoint for a total of 7 tests and one more test case was added to test an exception of the Range class. Tests 29-31 are around the negative boundary value while tests 33-35 are around the positive boundary value. Test 36 is to check illegal arguments in the range (specifically, when the lower bound is greater than the upper bound) and ensures that an IllegalArgumentException is thrown.
-(See diagram for GetUpperBound(), these two methods are just opposites but the same strategy was applied.)
 
 ### Test cases for 37-41 for equal(double [][] a, double [][] b)
 
