@@ -1182,6 +1182,7 @@ Input 2:
 # 4 How the teamwork/effort was divided and managed
 
 Our group decided on which methods from the DataUtilities and Range classes would be tested. Five methods from each class were selected. Each member took two methods to test, one test from the Range class, and one from the DataUtilities class. The extra two classes were left until everyone had finished their first two methods, then taken by members who had finished their other tests with help from the remaining group members. 
+
 Each member was able to try mocking objects through jMock by helping the other group members with their tests, even if their assigned tests did not require mocking. Each member added to the report and the table summary of tests as they finished. After all group members were done with their tests, everyone presented their unit tests to other group members for feedback on the format of the tests (e.g. naming formats, the structure of unit tests, etc.) and to check that the inputs are sufficiently covered.
  
 The methods under test were assigned as follows:
