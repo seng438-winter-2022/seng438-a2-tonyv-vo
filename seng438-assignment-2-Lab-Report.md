@@ -22,7 +22,7 @@
   - [Test cases 26-28 for constrain(double data)](#test-cases-26-28-for-constraindouble-data)
   - [Test cases 29-36 for getLowerBound()](#test-cases-for-29-36-for-getlowerbound)
   - [Test cases 37-41 for equal(double [][] a, double [][] b)](#test-cases-for-37-41-for-equaldouble--a-double--b)
-  - [Test cases 42-45 for calculateColumnTotal(Values2D data, int column)](#test-cases-1--7-for-getupperbound)
+  - [Test cases 42-45 for calculateColumnTotal(Values2D data, int column)](#test-cases-for-42-45-for-calculatecolumntotalvalues2d-data-int-column)
 
 - [3 Test cases developed](#3-test-cases-developed)
 
