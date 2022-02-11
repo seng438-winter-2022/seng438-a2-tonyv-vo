@@ -100,10 +100,8 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 
 - max(0,3) = 3 test cases 
 
-- 3 tests were done around each endpoint for a total of 7 tests and one more test case was added to test an exception of the Range class
-  (See diagram for GetUpperBound(), these two methods are just opposites but the same strategy was applied).
-
-- 8 tests total were created
+- 3 tests were created around each endpoint for a total of 7 tests and one more test case was added to test an exception of the Range class. Tests 29-31 are around the negative boundary value while tests 33-35 are around the positive boundary value. Test 36 is to check illegal arguments in the range (specifically, when the lower bound is greater than the upper bound) and ensures that an IllegalArgumentException is thrown.
+(See diagram for GetUpperBound(), these two methods are just opposites but the same strategy was applied.)
 
 ### Test cases for 37-41 for equal(double [][] a, double [][] b)
 
@@ -111,13 +109,7 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 
 - max(2,3) = 3 test cases
 
-- Partitions were the combination of null and null array nun and non null array and two non null arrays
-
-- One extra test was added to test a 2D array with different dimensions. 
-
-- Another test case was added to ensure false was returned when arrays had different values.
-
-- 5 tests total were created
+- Partitions were created from the combination of two null arrays, a null array with a non-null array, and two non-null arrays. One extra test was added to test a 2D array with different dimensions and another test case was added to ensure that when arrays had different values but the same dimensions, false was returned from the method.
 
 ### Test cases for 42-45 for calculateColumnTotal(Values2D data, int column)
 
@@ -125,12 +117,7 @@ Our test strategy was to use the technique of Weak Equivalence Class Testing (WE
 
 - max(2,3) = 3 test cases
 
-- Partitions were made with max values and max negative values as input for a boundary cases for 3 partitions.
-
-- An additional test case was used to check that an exception was thrown for null data.
-
-- 4 tests total were created
-
+- Partitions were made with max positive values and max negative values as input for boundary cases for three partitions. An additional test case was used to check that an IllegalArgumentException was thrown for null data.
 
 # 3 Test cases developed
 
