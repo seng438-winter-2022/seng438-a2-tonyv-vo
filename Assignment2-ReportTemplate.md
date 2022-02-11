@@ -1,6 +1,8 @@
->   **SENG 438 - Software Testing, Reliability, and Quality**
+**SENG 438 - Software Testing, Reliability, and Quality**
 
-**Lab. Report \#2 – Requirements-Based Test Generation**
+> **Assignment #2**
+
+> **Lab. Report \#2 – Requirements-Based Test Generation**
 
 | Group \#:       | G38  |
 |-----------------|---|
@@ -8,7 +10,7 @@
 
 **Table of Contents**
 
-[1 Introduction](#_Toc439194677)
+[1 Introduction](#Introduction)
 
 [2 Detailed descriptions of unit test strategy](#_Toc439194678)
 
