@@ -31,7 +31,7 @@ Before this assignment, all group members had limited unit testing abilities. In
 # 2 Detailed descriptions of unit test strategy
 Our test strategy was to use the technique of Weak Equivalence Class Testing (WECT). We’ve calculated the max() in order to decipher how many tests seem appropriate for each method. We have provided an example diagram to visually display our testing strategy for the domain of the first method. We have tested the boundary values of certain tests and have attempted to include all equivalence classes for the rest of the tests. The following contains the corresponding WECT max() calculations for each method tested:
 
-<span style="text-decoration:underline;">Test cases 1- 7 for getUpperBound():</span>
+### Test cases 1- 7 for getUpperBound()
 
 Weak Equivalence Testing
 
