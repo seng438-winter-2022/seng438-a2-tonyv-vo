@@ -10,24 +10,23 @@
 
 **Table of Contents**
 
-[1 Introduction](#Introduction)
+[1 Introduction](#1-introduction)
 
-[2 Detailed descriptions of unit test strategy](#_Toc439194678)
+[2 Detailed descriptions of unit test strategy](#2-detailed-descriptions-of-unit-test-strategy)
 
-[3 Test cases developed](#_Toc439194679)
+[3 Test cases developed](#3-test-cases-developed)
 
-[4 How the teamwork/effort was divided and managed](#_Toc439194680)
+[4 How the teamwork/effort was divided and managed](#4-how-the-teamworkeffort-was-divided-and-managed)
 
-[5 Difficulties encountered, challenges overcome, and lessons learned](#_Toc439194681)
+[5 Difficulties encountered, challenges overcome, and lessons learned](#5-difficulties-encountered-challenges-overcome-and-lessons-learned)
 
-[6 Comments/feedback on the lab itself](#_Toc439194682)
+[6 Comments/feedback on the lab itself](#6-commentsfeedback-on-the-lab-itself)
 
 # 1 Introduction
 
 In this assignment, we were given the Java library JFreeChart, which is used for creating interactive charts. The objective of this assignment is to create unit tests for certain methods from JFreeChart. This assignment was focused on Weak Equivalence Class Testing (WECT) and black-box testing. As such, we were provided with a function’s signature, arguments accepted, description, and a return value, but were not shown the code for the implementation of the method. From this, we devised a unit test strategy to effectively write enough tests to cover WECT for the arguments of the method. When needed, the Java mocking library jMock was used to mock objects such as Values2D and KeyedValues in the DataUtilities class.
 
 Before this assignment, all group members had limited unit testing abilities. In a previous course, ENSF 409 (which was taken by all members), unit testing was briefly taught and used in some assignments and the final project, but not to the extent present in this assignment (such as mocking objects and using @Before and @After).
-
 
 # 2 Detailed descriptions of unit test strategy
 Our test strategy was to use the technique of Weak Equivalence Class Testing (WECT). We’ve calculated the max() in order to decipher how many tests seem appropriate for each method. We have provided an example diagram to visually display our testing strategy for the domain of the first method. We have tested the boundary values of certain tests and have attempted to include all equivalence classes for the rest of the tests. The following contains the corresponding WECT max() calculations for each method tested:
