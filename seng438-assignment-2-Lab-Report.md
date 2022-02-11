@@ -34,7 +34,7 @@
 
 # 1 Introduction
 
-In this assignment, we were given the Java library JFreeChart, which is used for creating interactive charts. The objective of this assignment is to create unit tests for certain methods from JFreeChart. This assignment was focused on Weak Equivalence Class Testing (WECT) and black-box testing. As such, we were provided with a function’s signature, arguments accepted, description, and a return value, but were not shown the code for the implementation of the method. From this, we devised a unit test strategy to effectively write enough tests to cover WECT for the arguments of the method. When needed, the Java mocking library jMock was used to mock objects such as Values2D and KeyedValues in the DataUtilities class.
+In this assignment, we were given the Java library JFreeChart, which is used for creating interactive charts. The objective of this assignment is to create unit tests for certain methods from JFreeChart. This assignment was focused on Weak Equivalence Class Testing (WECT) and black-box testing. As such, we were provided with a function’s signature, arguments accepted, description, and a return value. From this, we devised a unit test strategy to effectively write enough tests to cover WECT for the arguments of the method. When needed, the Java mocking library jMock was used to mock objects such as Values2D in the DataUtilities class.
  
 Before this assignment, all group members had limited unit testing abilities. In a previous course, ENSF 409 (which was taken by all members), unit testing was briefly taught and used in some assignments and the final project, but not to the extent present in this assignment (such as mocking objects and using @Before and @After).
 
